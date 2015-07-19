@@ -1,0 +1,17 @@
+{
+  "name": "tickler-file-tf-service",
+  "version": "1.0.0",
+  "description": "Tickler file base service",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Michael Miller",
+  "license": "",
+  "dependencies": {
+    "mongoose": "^4.0.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}

@@ -1,0 +1,12 @@
+test:
+  build: .
+  volumes:
+   - "./src/:/code/src"
+   - "./test/:/code/test"
+
+  links:
+   - "mongo"
+
+mongo:
+  image: mongo:latest
+
